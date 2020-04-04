@@ -20,7 +20,6 @@ class LoginPage(BasePage):
         assert self.browser.find_element(*LoginPageLocators.REGISTER_PASSWORD1), "No register password 1"
         assert self.browser.find_element(*LoginPageLocators.REGISTER_PASSWORD2), "No register password 2"
 
-
     def register_new_user(self, email, password):
         register_email = self.browser.find_element(*LoginPageLocators.REGISTER_EMAIL)
         register_email.send_keys(email)

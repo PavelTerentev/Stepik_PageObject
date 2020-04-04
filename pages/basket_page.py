@@ -13,6 +13,3 @@ class BasketPage(BasePage):
 
     def should_be_text_that_the_basket_is_empty(self):
         assert self.browser.find_element(*BasketPageLocators.BASKET_EMPTY), "Basket is not empty"
-
-
-

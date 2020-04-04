@@ -13,6 +13,7 @@ class LoginPageLocators:
     REGISTER_PASSWORD2 = (By.NAME, "registration-password2")
     REGISTER_SUBMIT = (By.NAME, "registration_submit")
 
+
 class ProductPageLocators:
     ADD_TO_BASKET = (By.ID, "add_to_basket_form")
     BOOK_NAME = (By.XPATH, "//h1")
