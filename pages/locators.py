@@ -11,3 +11,11 @@ class LoginPageLocators():
     REGISTER_EMAIL = (By.NAME, "registration-email")
     REGISTER_PASSWORD1 = (By.NAME, "registration-password1")
     REGISTER_PASSWORD2 = (By.NAME, "registration-password2")
+
+
+class ProductPageLocators():
+    ADD_TO_BASKET = (By.ID, "add_to_basket_form")
+    BOOK_NAME = (By.XPATH, "//h1")
+    BOOK_NAME_ALERT = (By.XPATH, "//div[2]//div/div[1]/div/strong")
+    BASKET_COST = (By.XPATH, "//div[3]/div/p[1]/strong")
+    PRICE_PRODUCT = (By.XPATH, "//article/div[1]/div[2]/p[1]")
