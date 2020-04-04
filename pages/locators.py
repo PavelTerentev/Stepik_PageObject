@@ -19,3 +19,5 @@ class ProductPageLocators():
     BOOK_NAME_ALERT = (By.XPATH, "//div[2]//div/div[1]/div/strong")
     BASKET_COST = (By.XPATH, "//div[3]/div/p[1]/strong")
     PRICE_PRODUCT = (By.XPATH, "//article/div[1]/div[2]/p[1]")
+    SUCCESS_MESSAGE = (By.XPATH, '//*[@id="messages"]/div[1]')
+    CLOSE_MESSAGESE_1 = (By.XPATH, '//*[@id="messages"]/div[1]/a')
