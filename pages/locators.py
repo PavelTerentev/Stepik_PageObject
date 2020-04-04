@@ -21,3 +21,8 @@ class ProductPageLocators():
     PRICE_PRODUCT = (By.XPATH, "//article/div[1]/div[2]/p[1]")
     SUCCESS_MESSAGE = (By.XPATH, '//*[@id="messages"]/div[1]')
     CLOSE_MESSAGESE_1 = (By.XPATH, '//*[@id="messages"]/div[1]/a')
+
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
